@@ -1,11 +1,11 @@
 .menu {
     display: flex;
-    margin-bottom: 70px;
     justify-content: space-evenly;
     position: fixed;
     top: 0;
     width: 100%;
     background-color: rgb(0, 227, 243);
+    height: 70px;
 }
 .menu > a {
     flex: 0 1 auto;
@@ -15,6 +15,9 @@
 }
 .menu > a:hover {
     background-color: rgb(145, 0, 182);
+}
+body{
+    margin-top: 70px;
 }
 .footer {
     bottom: 0px;
