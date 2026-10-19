@@ -129,10 +129,11 @@ body{
 .catalogo-grid {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .producto {
-    flex: 1 1 260px;
+    flex: 0 1 260px;
     text-align: center;
 }
 .imagen {
